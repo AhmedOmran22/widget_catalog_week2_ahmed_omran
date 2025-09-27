@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'widgets/exclude_semantics_example.dart';
+import 'package:widget_catalog_week2_ahmed_omran/inputs/key_board_listner_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: ExcludeSemanticsExample());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: KeyboardListenerExample(),
+    );
   }
 }
