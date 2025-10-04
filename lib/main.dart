@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'interactions/interr_active_viewer.dart';
+import 'package:widget_catalog_week2_ahmed_omran/layout/table_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InteractiveViewerExample(),
+      home: TableExample(),
     );
   }
 }
